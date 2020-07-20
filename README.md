@@ -6,7 +6,7 @@ git.io is a really useful shortener for your GitHub-related URLs and it even [su
 Not having the need to authorize prior to the creation of custom URLs is very practical, but is also enables the mass-creation of an endless list of customized URLs at once [**without giving other persons the chance to benefit from them**](#why-has-this-been-published).
 
 This small Proof-of-Concept fulfills two purposes:
-1. Highlight the risks of enabling the handy custom URL shortener feature without authorization (also useful if you implement your own shortener)
+1. Highlight the risks of enabling the handy custom URL shortener feature without authorisation (also good to know if you design your own shortener)
 2. Provide a demo in form of a simple Python CLI for git.io to create your own custom URL(s) as long as they are free
 
 > You might notice that the two forces are reciprocal. This is by intention: First, educating what the problem is hopefully helps with building an intuition of fair usage. Second, finding a custom URL that is still free in the wild becomes more and more harder, thus a tool that automatizes the process is a nice-to-have (at least), while still staying fair.
@@ -36,7 +36,7 @@ This way, the main segment path of the URL will not get modified and the shorten
 
 ## Why has this been published?
 
-I saw that a small group of GitHub users already mass-created many 1-(unicode)char git.io URLs to one and the same site by using the trick above. I decided to re-balance it by giving more people the chance to at least do mass-tests (and a hard-coded quota of the creation of 5 custom URLs in one batch). This comes with a disclaimer:
+I saw that a small group of GitHub users already mass-created many 1-(unicode)char git.io URLs to one and the same site by using the trick above. I decided to re-balance it by giving more people the chance (using the CLI) to at least do mass-tests (and a hard-coded quota of the creation of 5 custom URLs in one batch). This comes with a disclaimer:
 
 > :warning: **Stay fair** and don't use this for spamming. Only create URLs you really need and which have a purpose.
 
