@@ -3,7 +3,7 @@
 
 git.io is a really useful shortener for your GitHub-related URLs and it even [supports the creation of custom URLs](https://github.blog/2011-11-10-git-io-github-url-shortener/).
 
-Not having the need to authorize prior to the creation of custom URLs is very practical, but is also enables the mass-creation of an endless list of customized URLs at once [**without giving other persons the chance to benefit from them**](#why-has-this-been-published).
+Not having the need to authorise prior to the creation of custom URLs is very practical, but is also enables the mass-creation of an endless list of customized URLs at once [**without giving other persons the chance to benefit from them**](#why-has-this-been-published).
 
 This small Proof-of-Concept fulfills two purposes:
 1. Highlight the risks of enabling the handy custom URL shortener feature without authorisation (also good to know if you design your own shortener)
@@ -42,9 +42,9 @@ I saw that a small group of GitHub users already mass-created many 1-(unicode)ch
 
 ## The Countermeasures
 
-More democratic but also more impractical would be the use of quotas (say 10 custom URLs per day).
+More democratic but also more impractical would be the use of quotas, say 10 custom URLs per day.
 This requires either 
-1. the tracking of PII (personally identifiable information) such as IP address or...
+1. the tracking of personally identifiable information such as an IP address or (not a very good design)...
 2. a kind of authentication (is the user registered and logged in?) followed by authorisation (is the user allowed to *create* another custom URL at this moment?)
 
 It makes everything slightly more complicated, but the resulting fairness would be totally worth it.
